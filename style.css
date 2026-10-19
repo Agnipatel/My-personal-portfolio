@@ -6,25 +6,8 @@
   font-family: "Pathway Extreme", sans-serif;
 }
 body{
-  animation: changebg 7s infinite alternate linear;
-
-}
-@keyframes changebg {
-  0%{
-    background: #231d1d;
-  }
-  25%{
-    background: #29022ea1;
-  }
-  50%{
-    background: #000000;
-  }
-  75%{
-    background:#3a0720a1;
-  }
-  100%{
-    background: #2e2c2c;  
-  }
+  background: #ffffff;
+  color: #111827;
 }
 .intro p{
   overflow: hidden;
@@ -84,8 +67,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #080808;
-  color: #fff;
+  background: #ffffff;
+  color: #111827;
 }
 #logo {
   /* position: fixed; */
@@ -119,7 +102,8 @@ body {
   max-width: 1200px;
 }
 nav {
-  background-color: rgba(8, 8, 8, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #f3f4f6;
   backdrop-filter: blur(10px);
   padding: 0 20px;
   top: 0;
@@ -141,7 +125,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #111827;
   font-size: 18px;
   position: relative;
 }
@@ -209,7 +193,7 @@ img {
 .sub-title {
   font-size: 60px;
   font-weight: 600;
-  color: white;
+  color: #111827;
 }
 .tab-title {
   display: flex;
@@ -263,12 +247,14 @@ img {
 }
 
 .services-list div {
-  background: #262626;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  color: #1f2937;
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
   border-radius: 10px;
-  transition: background 0.5s, transform 0.5s;
+  transition: background 0.5s, transform 0.5s, border-color 0.5s;
 }
 .services-list div i {
   font-size: 50px;
@@ -461,13 +447,12 @@ img {
 form input,
 form textarea {
   width: 100%;
-  border: 0;
+  border: 1px solid #e5e7eb;
   outline: none;
-  background: #262626;
+  background: #f9fafb;
   padding: 15px;
   margin: 15px 0;
-  /* color: #fff; */
-  color: #ff004f;
+  color: #111827;
   font-size: 18px;
   border-radius: 6px;
 }
@@ -480,9 +465,10 @@ form btn2 {
 .copyright {
   width: 100%;
   text-align: center;
-
   padding: 25px 0;
-  background: #262626;
+  background: #ffffff;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
   font-weight: 400;
   margin-top: 20px;
   position: sticky;
